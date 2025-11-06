@@ -72,7 +72,7 @@ npm install
 Create a `.env` file in the root directory and add the following:
 
 ```ini
-PORT=5000
+PORT=8081
 HF_ACCESS_TOKEN=your_huggingface_token_here
 AI_MODEL=HuggingFaceTB/SmolLM2-1.7B-Instruct
 AI_MODEL_PROVIDER=huggingface
@@ -316,6 +316,5 @@ tmp/
 ## 👨‍💻 Developer
 
 **Tushar Yerne**  
-📍 MIT WPU, Pune  
-💡 Smart India Hackathon Finalist (2025)  
+📍 MIT WPU, Pune   
 🧠 Full Stack Developer | AI Integration | API Engineering  
