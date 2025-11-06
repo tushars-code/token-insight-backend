@@ -1,4 +1,4 @@
-# 🧠 Token Insight Backend
+# Token Insight Backend
 ### > AI-Powered Crypto Analytics API (Assignment Submission)
 
 This project is a **backend engine** that generates cryptocurrency insights using **AI models from Hugging Face** and integrates **real-time market data** from **CoinGecko** and **HyperLiquid Testnet**.
@@ -16,7 +16,7 @@ It demonstrates:
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Module | Description |
 | :--- | :--- |
@@ -27,7 +27,7 @@ It demonstrates:
 
 ---
 
-## 🏗️ Folder Structure
+## Folder Structure
 
 ```bash
 TOKEN-INSIGHT-BACKEND/
@@ -57,7 +57,7 @@ TOKEN-INSIGHT-BACKEND/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone and Install
 
@@ -93,7 +93,7 @@ Server will start at 👉 [http://localhost:8081](http://localhost:8081)
 
 ---
 
-## 🤖 AI Setup Logic — `src/services/aiService.js`
+## AI Setup Logic — `src/services/aiService.js`
 
 This module is the **core intelligence layer** that powers the backend. It leverages **Hugging Face’s Transformers JS pipeline** to load and interact with large language models.
 
@@ -200,7 +200,7 @@ Ensures the `/api/token/:id/insight` endpoint never crashes and always returns a
 
 ---
 
-## 💰 Token Insight Logic — `src/services/coingeckoService.js`
+## Token Insight Logic — `src/services/coingeckoService.js`
 
 - Fetches real-time market data from **CoinGecko API**  
 - Builds concise AI prompt using:  
@@ -225,7 +225,7 @@ Price: $50000 | Change: +1.5% | Volume: $50M | Market Cap: $1B
 
 ---
 
-## 📈 HyperLiquid Logic — `src/services/hyperliquidService.js`
+## HyperLiquid Logic — `src/services/hyperliquidService.js`
 
 - Calculates **daily PnL** using wallet data from **HyperLiquid Testnet**  
 - Returns **mock data** for demo wallets  
@@ -238,7 +238,7 @@ Simulated PnL provides insight-like analytics even without live credentials.
 
 ---
 
-## 🧪 Testing Setup
+## Testing Setup
 
 ### Run Tests
 ```bash
@@ -252,13 +252,13 @@ npm test
 **Example Test (`token.test.js`)**:  
 - Mocks AI & API responses  
 - Tests:
-  - ✅ Successful API call  
-  - ⚠️ Missing parameters  
-  - 🧠 AI fallback logic  
+  - Successful API call  
+  - Missing parameters  
+  - AI fallback logic  
 
 ---
 
-## 🐳 Docker Setup (Optional)
+## Docker Setup (Optional)
 
 ### Build & Run
 ```bash
@@ -273,7 +273,7 @@ docker-compose up --build
 
 ---
 
-## 🧾 .gitignore (Recommended)
+##  .gitignore (Recommended)
 
 ```gitignore
 # Node
@@ -303,18 +303,18 @@ tmp/
 
 ---
 
-## 🧩 Evaluator Notes
+## Evaluator Notes
 
-✅ **Main Concept** – Demonstrates full integration of AI reasoning + financial data  
-✅ **AI Model Used** – HuggingFaceTB/SmolLM2-1.7B-Instruct  
-✅ **Testing** – Jest + Supertest ensure reliability  
-✅ **Architecture** – Modular, Docker-ready, and scalable  
-✅ **Focus** – Prompt–Response AI generation with fallback logic  
+ **Main Concept** – Demonstrates full integration of AI reasoning + financial data  
+ **AI Model Used** – HuggingFaceTB/SmolLM2-1.7B-Instruct  
+ **Testing** – Jest + Supertest ensure reliability  
+ **Architecture** – Modular, Docker-ready, and scalable  
+ **Focus** – Prompt–Response AI generation with fallback logic  
 
 ---
 
-## 👨‍💻 Developer
+## Developer
 
 **Tushar Yerne**  
-📍 MIT WPU, Pune   
-🧠 Full Stack Developer | AI Integration | API Engineering  
+MIT WPU, Pune   
+Full Stack Developer | AI Integration | API Engineering  
