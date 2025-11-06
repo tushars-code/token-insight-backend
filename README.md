@@ -1,5 +1,5 @@
 # Token Insight Backend
-### > AI-Powered Crypto Analytics API (Assignment Submission)
+### AI-Powered Crypto Analytics API (Assignment Submission)
 
 This project is a **backend engine** that generates cryptocurrency insights using **AI models from Hugging Face** and integrates **real-time market data** from **CoinGecko** and **HyperLiquid Testnet**.
 
